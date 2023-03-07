@@ -1,9 +1,14 @@
 import React from "react";
+import "./App.css";
+
+import Hero from "./Components/Hero";
+import Navabar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="font-bold text-3xl underline">Hello Reactjs</h1>
+    <div>
+      <Navabar />
+      <Hero />
     </div>
   );
 }

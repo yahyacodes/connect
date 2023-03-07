@@ -1,0 +1,10 @@
+.container {
+  padding: 0 1rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.header-text {
+  font-size: clamp(3rem, 1rem + 10vw, 3.7rem);
+  font-weight: 700;
+}
