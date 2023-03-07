@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
 
-import Hero from "./Components/Hero";
+import Features from "./Components/Features";
 import Navabar from "./Components/Navbar";
+import Hero from "./Components/Hero";
 
 function App() {
   return (
     <div>
       <Navabar />
       <Hero />
+      <Features />
     </div>
   );
 }
