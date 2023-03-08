@@ -23,46 +23,36 @@ const Connection = () => {
                 there, gain buyers, meet with like minded and sellers like you
               </p>
 
-              <div className="flex flex-wrap mt-5">
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3">
-                  <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
-                </div>
-
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3 -mx-60">
+              <div className="flex items-center">
+                <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
+                <div className="pl-2 mt-1">
                   <p className="text-gray-400 text-base">
                     Learn from experienced sellers
                   </p>
                 </div>
               </div>
-              <div className="flex flex-wrap ">
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3">
-                  <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
-                </div>
 
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3 -mx-60">
+              <div className="flex items-center">
+                <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
+                <div className="pl-2 mt-1">
                   <p className="text-gray-400 text-base">
                     Creates job opportunities
                   </p>
                 </div>
               </div>
-              <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3">
-                  <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
-                </div>
 
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3 -mx-60">
+              <div className="flex items-center">
+                <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
+                <div className="pl-2 mt-1">
                   <p className="text-gray-400 text-base">
                     Builds your reputation
                   </p>
                 </div>
               </div>
 
-              <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3">
-                  <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
-                </div>
-
-                <div className="w-full lg:w-1/2 md:w-1/2 px-3 -mx-60">
+              <div className="flex items-center">
+                <BsCircleFill className="w-2 h-2 mt-2 text-secondary-color" />
+                <div className="pl-2 mt-1">
                   <p className="text-gray-400 text-base">
                     Builds trust and support
                   </p>
