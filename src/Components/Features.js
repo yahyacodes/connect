@@ -5,7 +5,7 @@ const Features = () => {
     <section className="mb-20">
       <div className="py-20 px-42 z-50">
         <div className="container mx-auto items-center justify-between flex flex-wrap">
-          <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
+          <div className="w-full md:w-1/3 lg:w-1/3  mb-20 lg:mb-0">
             <h1 className="text-3xl font-bold leading-none">Support</h1>
             <p className="text-base text-gray-400 mt-2 max-w-sm">
               Once you start using Connect you will get 24/7 support which will
@@ -18,7 +18,7 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
+          <div className="w-full md:w-1/3 lg:w-1/3  mb-20 lg:mb-0">
             <h1 className="text-3xl font-bold leading-none">
               Access all your tools
             </h1>
@@ -32,7 +32,7 @@ const Features = () => {
               make your sells easy
             </p>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
+          <div className="w-full md:w-1/3 lg:w-1/3  mb-20 lg:mb-0">
             <h1 className="text-3xl font-bold leading-none">
               Find what you want
             </h1>

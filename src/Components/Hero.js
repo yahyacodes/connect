@@ -19,11 +19,11 @@ const Hero = () => {
             </div>
             <button
               type="button"
-              className="block sm:inline-block py-4 px-8 text-xs text-navy hover:text-tale text-center font-display bg-white border border-navy hover:border-tale rounded mt-2"
+              className="block sm:inline-block py-2 px-4 text-xs text-center bg-secondary-color font-medium rounded mt-2"
             >
-              Alternative
+              Get Started
             </button>
-            <p className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-black text-center font-display bg-navy hover:bg-tale rounded sm:ml-10">
+            <p className="block sm:inline-block py-2 px-4 mb-4 sm:mb-0 sm:mr-3 text-xs text-black text-center sm:ml-10">
               15K + online sellers are <br /> connected through here.
             </p>
           </div>
