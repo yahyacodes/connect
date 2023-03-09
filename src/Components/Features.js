@@ -9,7 +9,7 @@ const Features = () => {
     <section className="mb-20">
       <div className="py-20 px-42 z-50">
         <div className="container mx-auto items-center justify-between flex flex-wrap">
-          <div className="w-full md:w-1/3 lg:w-1/3  mb-20 lg:mb-0">
+          <div className="w-full md:w-1/2 lg:w-1/3  mb-20 lg:mb-0">
             <div className="flex items-center">
               <img src={supportIcon} alt="" className="w-10 h-10" />
               <div className="pl-2 mt-1">

@@ -82,14 +82,14 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-1/2  mb-20 lg:mb-0 mx-36">
+        <div className="w-full md:w-1/2 lg:w-1/2  mb-20 lg:mb-0 lg:mx-36 md:mx-0">
           {showJasonText && (
             <>
               <h1 className="text-3xl font-bold">It was greate experience!</h1>
-              <div class="flex items-center mt-2.5 mb-5">
+              <div className="flex items-center mt-2.5 mb-5">
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -158,10 +158,10 @@ const Testimonials = () => {
           {startShow && (
             <>
               <h1 className="text-3xl font-bold">It was greate!</h1>
-              <div class="flex items-center mt-2.5 mb-5">
+              <div className="flex items-center mt-2.5 mb-5">
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -230,10 +230,10 @@ const Testimonials = () => {
           {jonathanText && (
             <>
               <h1 className="text-3xl font-bold">It was greate experience!</h1>
-              <div class="flex items-center mt-2.5 mb-5">
+              <div className="flex items-center mt-2.5 mb-5">
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +243,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +253,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +263,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +273,7 @@ const Testimonials = () => {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-yellow-300"
+                  className="w-5 h-5 text-yellow-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"

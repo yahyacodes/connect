@@ -15,7 +15,7 @@ const Faqs = () => {
             <p className="text-lg font-semibold p-3">What is Connect?</p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
 
@@ -27,7 +27,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Faqs = () => {
             <p className="text-lg font-semibold p-3">Is Connect secure?</p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
 
@@ -61,7 +61,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/4  mb-20 lg:mb-0">
-            <BsChevronDown />
+            <BsChevronDown className="text-secondary-color" />
           </div>
         </div>
         <hr className="w-10/12 border-gray-300" />
