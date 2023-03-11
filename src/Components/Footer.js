@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="md:flex md:justify-center">
           <div className="mb-6 md:mb-0">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white border-b-2 border-secondary-color">
               Connect
             </span>
           </div>

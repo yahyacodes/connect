@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import logo from "../Images/connect-logo-01.png";
 
 const Navabar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -10,9 +11,7 @@ const Navabar = () => {
     <nav className="bg-white shadow-md md:py-0 py-4 px-2 sm:px-4">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="Home" className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap">
-            Connect
-          </span>
+          <img src={logo} alt="" className="w-28" />
         </a>
         <div className="flex md:order-2">
           <button
@@ -50,12 +49,15 @@ const Navabar = () => {
             </li>
             <li>
               <a href="Home" className="block py-2 pl-3 pr-4 text-black">
-                Services
+                Features
               </a>
             </li>
             <li>
-              <a href="Home" className="block py-2 pl-3 pr-4 text-black">
-                Contact
+              <a
+                href="Home"
+                className="block py-2 pl-3 pr-4 text-header-color uppercase"
+              >
+                Login
               </a>
             </li>
           </ul>

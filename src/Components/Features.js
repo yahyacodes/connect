@@ -17,9 +17,12 @@ const Features = () => {
               </div>
             </div>
             <p className="text-base text-gray-400 mt-2 max-w-sm">
-              Once you start using Connect you will get 24/7 support which will
-              not slow down your conversations, deals and connection with other
-              sellers.
+              Once you start using{" "}
+              <span className="border-b-2 border-secondary-color">
+                Connect{" "}
+              </span>{" "}
+              you will get 24/7 support which will not slow down your
+              conversations, deals and connection with other sellers.
             </p>
             <p className="text-base text-gray-400 mt-2 max-w-sm">
               We always work on how to improve our product thus allowing you to
@@ -56,8 +59,12 @@ const Features = () => {
               </div>
             </div>
             <p className="text-base text-gray-400 mt-2 max-w-sm">
-              With Connect you are able to find whatever you looking for easily,
-              whether you are seller or buyer
+              With{" "}
+              <span className="border-b-2 border-secondary-color">
+                Connect{" "}
+              </span>{" "}
+              you are able to find whatever you looking for easily, whether you
+              are seller or buyer
             </p>
             <p className="text-base text-gray-400 mt-2 max-w-sm">
               We always eager to make your life easier whether you are a seller

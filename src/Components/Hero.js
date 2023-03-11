@@ -13,8 +13,11 @@ const Hero = () => {
                 Associate with like minded people.
               </h1>
               <p className="text-base text-gray-400 mt-2 max-w-sm">
-                Connect to link with other online sellers. See what they are
-                selling and what they are buying from each other.
+                <span className="border-b-2 border-secondary-color">
+                  Connect{" "}
+                </span>
+                to link with other online sellers. See what they are selling and
+                what they are buying from each other.
               </p>
             </div>
             <button

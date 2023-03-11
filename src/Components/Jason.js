@@ -71,7 +71,7 @@ const Jason = () => {
         Connect.
       </p>
 
-      <p className="mt-10 italic text-gray-300">Jason Morta.</p>
+      <p className="mt-10 italic text-gray-300 ">Jason Morta.</p>
     </>
   );
 };
