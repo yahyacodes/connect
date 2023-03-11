@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="p-4 footer-bg sm:p-6">
-      <div className="text-center mt-32">
+      <div className="text-center mt-40">
         <div className="mb-20">
           <h1 className="mt-10 text-4xl font-bold text-white">
             Experience Connect to Increase your sales
@@ -27,8 +27,8 @@ const Footer = () => {
               Connect
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-0 sm:gap-0 sm:grid-cols-5">
-            <div>
+          <div className="grid grid-cols-2 gap-0 sm:gap-0 lg:grid-cols-5">
+            <div className="mb-8">
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Prosucts
               </h2>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <li className="mb-4">Solutions</li>
               </ul>
             </div>
-            <div>
+            <div className="mb-8">
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Resouces
               </h2>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <li className="mb-4">Help Center</li>
               </ul>
             </div>
-            <div>
+            <div className="mb-8">
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Pricing
               </h2>
@@ -63,7 +63,7 @@ const Footer = () => {
                 <li className="mb-4">Enterprise</li>
               </ul>
             </div>
-            <div>
+            <div className="mb-8">
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Company
               </h2>

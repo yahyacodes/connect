@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navabar = () => {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
-    <nav className="bg-white shadow-md px-2 sm:px-4">
+    <nav className="bg-white shadow-md md:py-0 py-4 px-2 sm:px-4">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="Home" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap">
@@ -12,36 +17,21 @@ const Navabar = () => {
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-black bg-secondary-color font-medium rounded text-xs px-5 py-2.5 text-center mr-3 md:mr-0"
+            className="text-black bg-secondary-color font-medium rounded text-xs px-5 py-2.5 text-center mr-3 md:mr-0 hidden md:flex"
           >
             Get started
           </button>
-          <button
-            data-collapse-toggle="navbar-cta"
-            type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-            aria-controls="navbar-cta"
-            aria-expanded="false"
+          <div
+            className="text-3xl absolute right-14 top-4 cursor-pointer md:hidden"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-6 h-6"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-          </button>
+            {isOpen ? <AiOutlineMenu /> : <AiOutlineClose />}
+          </div>
         </div>
+
         <div
-          className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          id="navbar-cta"
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1
+          ${isOpen ? "hidden" : "left-[500px]"}`}
         >
           <ul className="flex flex-col p-4 mt-4 md:flex-row md:mt-0 md:text-sm md:font-medium">
             <li>

@@ -12,11 +12,25 @@
 .footer-bg {
   background-color: #5c2886;
   -webkit-clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .faqs-bg {
   background-color: #bb5e660b;
   -webkit-clip-path: polygon(0 22%, 100% 0%, 100% 73%, 0 100%);
   clip-path: polygon(0 22%, 100% 0%, 100% 73%, 0 100%);
+}
+
+@media (max-width: 60em) {
+  .footer-bg {
+    background-color: #5c2886;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .faqs-bg {
+    background-color: #bb5e660b;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+  }
 }

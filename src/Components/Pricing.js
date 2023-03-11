@@ -32,7 +32,7 @@ const Pricing = () => {
 
             <div className="relative space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 border border-gray-200 rounded-md">
               <div className="py-0 px-0 pb-0 rounded-lg">
-                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg lg:px-8 lg:py-12">
+                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg px-8 py-12">
                   <div>
                     <h3 className="text-header-color text-sm font-semibold uppercase tracking-wide">
                       Personal
@@ -104,7 +104,7 @@ const Pricing = () => {
               </div>
 
               <div className="py-0 px-2 pb-0 rounded-lg">
-                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg lg:px-8 lg:py-12">
+                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg px-8 py-12">
                   <div>
                     <h3 className="text-header-color text-sm font-semibold uppercase tracking-wide">
                       Pro
@@ -174,7 +174,7 @@ const Pricing = () => {
               </div>
 
               <div className="py-0 px-0 pb-0 rounded-lg">
-                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg lg:px-8 lg:py-12">
+                <div className="bg-white hover:shadow-2xl border shadow-black rounded-lg px-8 py-12">
                   <div>
                     <h3 className="text-header-color text-sm font-semibold uppercase tracking-wide">
                       Enterprise

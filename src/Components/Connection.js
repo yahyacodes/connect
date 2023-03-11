@@ -14,7 +14,7 @@ const Connection = () => {
         </div>
         <div className="w-full lg:w-1/2 md:order-2 order-1 px-3">
           <div className="py-0 mt-10 md:py-12 md:p-20">
-            <div className="relative mx-auto text-center mb-0 lg:mx-0 lg:text-left">
+            <div className="relative mx-auto md:text-center mb-0 lg:mx-0 lg:text-left">
               <h1 className="text-6xl text-header-color font-bold leading-none">
                 Connect with other sellers
               </h1>
