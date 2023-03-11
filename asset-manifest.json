@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/connect/static/css/main.367d4d74.css",
+    "main.js": "/connect/static/js/main.06963b6a.js",
+    "static/media/connect-hero-removebg-preview.png": "/connect/static/media/connect-hero-removebg-preview.35e5b0a5d7c40df4d903.png",
+    "static/media/hero-woodwing-connect-front-removebg-preview.png": "/connect/static/media/hero-woodwing-connect-front-removebg-preview.0329a3f47b690d853b2e.png",
+    "static/media/adobe-stock.jpg": "/connect/static/media/adobe-stock.035933d4f4bacce01d26.jpg",
+    "static/media/lady.jpg": "/connect/static/media/lady.93e958afb7ab606e826e.jpg",
+    "static/media/Jonathan.jpg": "/connect/static/media/Jonathan.83239f9509decfac307a.jpg",
+    "static/media/6457560_24 hours_24_7_customer_delivery_service_icon-01.png": "/connect/static/media/6457560_24 hours_24_7_customer_delivery_service_icon-01.5a8fd45d1284c4571ecc.png",
+    "index.html": "/connect/index.html",
+    "main.367d4d74.css.map": "/connect/static/css/main.367d4d74.css.map",
+    "main.06963b6a.js.map": "/connect/static/js/main.06963b6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.367d4d74.css",
+    "static/js/main.06963b6a.js"
+  ]
+}
